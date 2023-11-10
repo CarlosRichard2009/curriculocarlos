@@ -1,0 +1,82 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 16 de out de 2023, 16:30:29
+    Author     : Wizard Bom Retiro
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+div{
+    float:left;
+}
+.geral{
+    width:100%;
+    height:100%;
+}
+
+.lateral{
+    width:20%;
+    height:100%;
+    background-color:orange;
+    color:black;
+    position:fixed;
+}
+.foto{
+    height: 140px;
+    width:150px;
+    background-color:azure;
+    margin:15px;
+    border-radius:50%;
+background-size: 100% 100%;
+background-image: url('Carlos.png');
+}
+.conteudo{
+    width:80%;
+    height:100%;
+    background-color:black;
+    color:orange;
+    margin-left:20.4%;
+    padding:1%;
+}
+.conteudo h1{
+    text-align: center;
+}
+h2{
+    text-align:center;
+    background-color:orange;
+    color:black;
+}
+ol li{
+    list-style:None;
+}
+ol li A{
+    text-decoration:None;
+    color: black;
+}
+
+ol li A:hover{
+    border-bottom: 2px solid black;
+}
+
+@media screen and (max-width: 850px){
+    .lateral{
+        width: 100%;
+        height: 30%;
+        position: sticky;
+        top:0;
+    }
+    .conteudo{
+        width: 100%;
+        height: 100%;
+        margin-left: 0%;
+    }
+}
